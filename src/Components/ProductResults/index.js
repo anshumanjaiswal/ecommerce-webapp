@@ -5,7 +5,7 @@ import { fetchProductsStart } from '../../redux/Products/products.actions';
 import Product from './Product';
 import FormSelect from '../forms/FormSelect';
 import LoadMore from './../LoadMore';
-import './styles.scss';
+import './styles.css';
 
 const mapState = ({ productsData }) => ({
   products: productsData.products

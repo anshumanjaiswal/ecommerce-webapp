@@ -4,7 +4,7 @@ import {Link, useHistory} from 'react-router-dom';
 import {emailSignInStart, googleSignInStart } from '../../redux/User/user.actions';
 
 
-import './styles.scss';
+import './styles.css';
 
 import AuthWrapper  from './../AuthWrapper';
 import FormInput from './../forms/FormInput';

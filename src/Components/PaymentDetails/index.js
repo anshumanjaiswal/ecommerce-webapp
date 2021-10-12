@@ -10,7 +10,7 @@ import {clearCart} from './../../redux/Cart/cart.actions';
 import {createStructuredSelector} from 'reselect';
 import {useSelector, useDispatch} from 'react-redux';
 import { useHistory} from 'react-router-dom';
-import './styles.scss';
+import './styles.css';
 
 const initialAddressState = {
   line1: '',

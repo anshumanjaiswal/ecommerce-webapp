@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ShopMen from './../../assets/shopMens.jpg';
 import ShopWomen from './../../assets/shopWomens.jpg';
-import './styles.scss';
+import './styles.css';
 
 const Directory = (props) => {
   return (

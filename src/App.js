@@ -28,7 +28,7 @@ import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import Payment from './pages/Payment';
 import Order from './pages/Order';
-import './default.scss';
+import './default.css';
 
 
 const App = props => {

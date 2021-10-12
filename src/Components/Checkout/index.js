@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectCartItems, selectCartTotal } from './../../redux/Cart/cart.selectors';
 import { createStructuredSelector } from 'reselect';
-import './styles.scss';
+import './styles.css';
 import Button from './../forms/Button';
 import Item from './Item';
 

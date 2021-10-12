@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserOrderHistory } from './../../redux/Orders/orders.actions'
 import OrderHistory from '../../Components/OrderHistory';
-import './styles.scss';
+import './styles.css';
 
 const mapState = ({ user, ordersData }) => ({
   currentUser: user.currentUser,

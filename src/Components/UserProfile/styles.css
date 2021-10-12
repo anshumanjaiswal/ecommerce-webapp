@@ -1,0 +1,32 @@
+.userProfile {
+  display: block;
+  width: 100%;
+  margin: 3rem auto 1rem;
+}
+.userProfile ul, .userProfile li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.userProfile ul li {
+  display: block;
+  width: 100%;
+}
+.userProfile ul li .img {
+  display: block;
+  width: 5rem;
+  margin: 0 auto;
+}
+.userProfile ul li .img img {
+  display: block;
+  width: 100%;
+}
+.userProfile ul li .displayName {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1.8rem;
+  line-height: 1;
+  text-transform: uppercase;
+}

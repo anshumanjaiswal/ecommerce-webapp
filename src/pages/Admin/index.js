@@ -7,7 +7,7 @@ import FormSelect from './../../Components/forms/FormSelect';
 import Button from './../../Components/forms/Button';
 import LoadMore from './../../Components/LoadMore';
 import { CKEditor } from 'ckeditor4-react';
-import './styles.scss';
+import './styles.css';
 
 const mapState = ({ productsData }) => ({
   products: productsData.products

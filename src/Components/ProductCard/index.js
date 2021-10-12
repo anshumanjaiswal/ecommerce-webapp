@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchProductStart, setProduct } from './../../redux/Products/products.actions';
 import { addProduct } from './../../redux/Cart/cart.actions'
 import Button from './../forms/Button';
-import './styles.scss';
+import './styles.css';
 
 
 const mapState = state => ({
